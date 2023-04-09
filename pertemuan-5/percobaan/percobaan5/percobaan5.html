@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive content</title>
+    <style>
+        .relative-padding{
+            background: #eee;
+            border: solid 1px #ddd;
+            padding: 3% 5%;
+        }
+        .overflow-demo {
+            overflow: hidden;
+        }
+        .overflow-demo .item {
+            width: 45%;
+            margin-right: 5%;
+            float: left;
+        }
+        .overflow-demo .item img {
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        .overflow-demo .item .content{
+            overflow: hidden;
+            min-width: 130px;
+        }
+        .overflow-demo h4 {
+            font-size: 1.4em;
+            margin:  0 0 5px;
+            padding: 0;
+            color: #666;
+        }
+        img{
+            width: 50%;
+            height: 50%;
+        }
+    </style>
+<body>
+    <h4>Relative Padding</h4>
+    <div class="relative-padding">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod, quam in posuere aliquet,
+            ligula felis convallis nulla, a auctor velit dolor at massa. Pellentesque eget dolor lobortis, rutrum tortor a,
+            dapibus diam. Praesent venenatis laoreet est nec placerat. Aliquam ut fermentum ex. Vivamus eget augue pulvinar,
+            mollis est id, dignissim augue. Suspendisse ultricies quam a libero malesuada commodo. Sed et nisi id ante rutrum placerat at ut ante.
+            Nulla ultrices a nibh aliquet auctor. Nulla eros lectus, luctus vitae venenatis a, vestibulum nec mauris. Vivamus vitae auctor justo.
+       </p>
+    </div>
+
+    <h3>Overflow</h3>
+    <div class="overflow-demo">
+        <div class="item">
+            <img src="images/1.jpg" alt="1">
+            <div class="content">
+                <h4>Sample Content 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod, quam in posuere aliquet,
+                    ligula felis convallis nulla, a auctor velit dolor at massa. Pellentesque eget dolor lobortis, rutrum tortor a,
+                    dapibus diam. Praesent venenatis laoreet est nec placerat. Aliquam ut fermentum ex. Vivamus eget augue pulvinar,
+                    mollis est id, dignissim augue. Suspendisse ultricies quam a libero malesuada commodo. Sed et nisi id ante rutrum placerat at ut ante.
+                    Nulla ultrices a nibh aliquet auctor. Nulla eros lectus, luctus vitae venenatis a, vestibulum nec mauris. Vivamus vitae auctor justo.
+               </p>
+            </div>
+        </div>
+    <!--/item-->
+
+    <div class="item">
+        <img src="images/2.jpg" alt="2">
+        <div class="content">
+            <h4>Sample Content</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod, quam in posuere aliquet,
+                    ligula felis convallis nulla, a auctor velit dolor at massa. Pellentesque eget dolor lobortis, rutrum tortor a,
+                    dapibus diam. Praesent venenatis laoreet est nec placerat. Aliquam ut fermentum ex. Vivamus eget augue pulvinar,
+                    mollis est id, dignissim augue. Suspendisse ultricies quam a libero malesuada commodo. Sed et nisi id ante rutrum placerat at ut ante.
+                    Nulla ultrices a nibh aliquet auctor. Nulla eros lectus, luctus vitae venenatis a, vestibulum nec mauris. Vivamus vitae auctor justo.
+               </p>
+            </div>
+        </div>
+</div>    
+</body>
+</html>
